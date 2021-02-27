@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_01_UIFORM_BILESENLERI_JSF:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>_01_UIFORM_BILESENLERI_JSF</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="_01_UIFORM_BILESENLERI_JSF-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="_01_UIFORM_BILESENLERI_JSF:war exploded" />
+    </root>
+  </artifact>
+</component>

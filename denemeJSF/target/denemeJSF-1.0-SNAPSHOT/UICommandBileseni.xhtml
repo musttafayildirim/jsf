@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: dell2
+  Date: 24.02.2021
+  Time: 12:56
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>Command Bileşeni</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h:commandButton
+                id="commandButton1"
+                value="Bir sayfa ileri"
+                action="UIFormBileseni"
+        >
+        </h:commandButton>
+
+        <h:commandLink
+                id="commandLink1"
+                action="UIFormBileseni"
+        > <h:outputText value="UIFormBileseni sayfasına gitmek için buraya basınız."></h:outputText>
+        </h:commandLink>
+    </h:form>
+</h:body>
+</html>

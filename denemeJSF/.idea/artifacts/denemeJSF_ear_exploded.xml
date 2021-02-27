@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="denemeJSF:ear exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/denemeJSF_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="denemeJSF/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="ejb.jar">
+        <element id="artifact" artifact-name="denemeJSF:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
