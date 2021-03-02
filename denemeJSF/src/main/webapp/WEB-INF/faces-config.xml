@@ -10,6 +10,12 @@
         <managed-bean-scope>request</managed-bean-scope>
     </managed-bean>
 
+    <managed-bean>
+        <managed-bean-name>language</managed-bean-name>
+        <managed-bean-class>com.example.denemeJSF.DillerBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
     <navigation-rule>
 
         <from-view-id>/index.xhtml</from-view-id>
@@ -30,5 +36,19 @@
         </navigation-case>
 
     </navigation-rule>
+
+    
+    <application>
+        <resource-bundle>
+            <base-name>mesajlar</base-name>
+            <var>msj</var>
+        </resource-bundle>
+
+        <resource-bundle>
+            <base-name>greeting</base-name>
+            <var>greeting</var>
+        </resource-bundle>
+    </application>
+
 
 </faces-config>
