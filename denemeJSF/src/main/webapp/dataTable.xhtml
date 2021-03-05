@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:view>
+    <h:head>
+        <title>JSF HTML Tag h:dataTable</title>
+    </h:head>
+    <h:body>
+        <h:outputStylesheet library="css" name="style.css"/>
+        <h:outputStylesheet library="css" name="table-style.css"/>
+
+        <div class="kirmizi"><h2>JSF Html h:dataTable</h2></div>
+
+        <h:dataTable value="#{personelBean.personelListesi}"
+                     var="personel"
+                     styleClass="personel-tablo"
+                     headerClass="personel-tablo-baslik"
+                     rowClasses="personel-tablo-tek-satir, personel-tablo-cift-satir"
+        >
+            <h:column>
+                <h:graphicImage library="images" name="ok_isareti.png"/>
+                <f:facet name="header">Numarası</f:facet> <!--Kolon başlığı-->
+                #{personel.numarasi}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">
+                    <h:commandLink action="#{personelBean.siralaPersonelAdiSoyadi()}">
+                        ADI SOYADI
+                    </h:commandLink>
+                </f:facet> <!--Kolon başlığı-->
+                #{personel.adiSoyadi}
+            </h:column>
+
+            <h:column>
+                <f:facet name="header">YAŞI</f:facet> <!--Kolon başlığı-->
+                #{personel.yasi}
+            </h:column>
+
+            <h:column>
+                <h:graphicImage library="images" name="para.jpg"/>
+                <f:facet name="header">MAAŞI</f:facet> <!--Kolon başlığı-->
+                #{personel.maasi}
+            </h:column>
+        </h:dataTable>
+    </h:body>
+</f:view>
+</html>

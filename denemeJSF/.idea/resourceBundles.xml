@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/greeting.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/greeting_de_DE.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/greeting_zh_CN.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfaYazilari_ar.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfaYazilari_en.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfaYazilari_tr.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfayazilari_ar.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfayazilari_tr.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfayazilari_ar.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfayazilari_tr.properties" />
+      <base-name>sayfayazilari</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/greeting.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/greeting_de_DE.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/greeting_zh_CN.properties" />
+      <base-name>greeting</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfaYazilari_ar.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfaYazilari_en.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfaYazilari_ru.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/webapp/resources/resources/sayfaYazilari_tr.properties" />
+      <base-name>sayfaYazilari</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

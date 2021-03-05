@@ -8,8 +8,10 @@
 <f:view>
    <h:head>
        <title>Implicit (üstü kapalı) Navigation</title>
+       <h:outputStylesheet library="css" name="denemeStyle.css"/>
    </h:head>
-   <h:body>
+
+    <h:body>
         <h:form id="form1">
             <h:commandButton action="UIInput" value="UIINPUT"/>
         </h:form>
@@ -17,7 +19,7 @@
            <h:commandButton action="#{UIInput}" value="ManagedBean ile sayfayı açar"/>
        </h:form>
        <h:form id="form13">
-           <h:commandButton action="UIInput?faces-redirect=true" value="Sayfaya redirect eder."/>
+           <h:commandButton styleClass="deneme" action="UIInput?faces-redirect=true" value="Sayfaya redirect eder."/>
        </h:form>
        <br/>
        <h:form id="form2">
@@ -28,11 +30,11 @@
            <h:commandButton action="UIGraphic" value="UIGraphic"/>
        </h:form>
 
-
         <h:outputText value="#{msj['mesaj.cumle1']}"/>
        <br/>
         <h:outputText value="#{msj['mesaj.cumle2']}"/>
 
+        <h:outputText styleClass="deneme" value="#{msj['mesaj.cumle2']}"/>
    </h:body>
 </f:view>
 </html>

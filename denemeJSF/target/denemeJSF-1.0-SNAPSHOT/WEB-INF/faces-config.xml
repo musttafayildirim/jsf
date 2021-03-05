@@ -16,6 +16,19 @@
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
 
+    <managed-bean>
+        <managed-bean-name>dil</managed-bean-name>
+        <managed-bean-class>com.example.denemeJSF.GirisSayfasi</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>personelBean</managed-bean-name>
+        <managed-bean-class>com.example.denemeJSF.PersonelBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+
     <navigation-rule>
 
         <from-view-id>/index.xhtml</from-view-id>
@@ -47,6 +60,20 @@
         <resource-bundle>
             <base-name>greeting</base-name>
             <var>greeting</var>
+        </resource-bundle>
+
+
+
+        <locale-config>
+            <default-locale>tr</default-locale>
+            <supported-locale>en</supported-locale>
+            <supported-locale>ar</supported-locale>
+            <supported-locale>ru</supported-locale>
+        </locale-config>
+
+        <resource-bundle>
+            <base-name>sayfaYazilari</base-name>
+            <var>loginSayfasi</var>
         </resource-bundle>
     </application>
 
