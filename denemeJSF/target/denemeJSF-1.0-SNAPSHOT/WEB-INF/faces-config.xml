@@ -28,6 +28,13 @@
         <managed-bean-scope>session</managed-bean-scope>
     </managed-bean>
 
+    <managed-bean>
+        <managed-bean-name>yonlendir</managed-bean-name>
+        <managed-bean-class>com.example.denemeJSF.Yonlendir</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+
 
     <navigation-rule>
 
